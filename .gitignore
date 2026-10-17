@@ -1,0 +1,22 @@
+node_modules/
+dist/
+.pnpm-store/
+*.log
+.tools/
+coverage/
+*.tsbuildinfo
+
+# Local environment and credentials
+.env
+.env.local
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Operating system files
+.DS_Store
+Thumbs.db

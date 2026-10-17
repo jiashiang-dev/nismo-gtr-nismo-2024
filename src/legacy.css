@@ -1,0 +1,11 @@
+.legacy {
+  width: 100%;
+  background: #f2f1ed;
+}
+
+.legacy__artwork {
+  display: block;
+  width: 100%;
+  height: auto;
+  image-rendering: auto;
+}
