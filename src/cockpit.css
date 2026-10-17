@@ -33,3 +33,16 @@
   .cockpit__scene { position: static; width: min(100%, 1536px); margin: 0 auto; aspect-ratio: auto; translate: none; display: grid; gap: 32px; }
   .cockpit__view { position: static; height: auto; opacity: 1; visibility: visible; }
 }
+/* Cockpit image size adjustment */
+@media (min-width: 901px) and (min-height: 601px) {
+  .cockpit__scene {
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    aspect-ratio: auto;
+  }
+
+  .cockpit__view {
+    object-fit: cover;
+  }
+}
