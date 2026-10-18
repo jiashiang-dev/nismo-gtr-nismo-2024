@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import { fileURLToPath, URL } from 'node:url';
 
 export default defineConfig({
- base: './', plugins: [react(), tailwindcss()],
+ base: '/nismo-gtr-nismo-2024/', plugins: [react(), tailwindcss()],
   resolve: {
     alias: { '@': fileURLToPath(new URL('.', import.meta.url)) },
   },
